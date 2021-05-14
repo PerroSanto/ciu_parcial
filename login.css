@@ -1,7 +1,34 @@
-.cuerpo {
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	letter-spacing: 0.03em;
+	line-height: 1.6;
 	height: 100vh;
 }
 
+.titulo {
+	text-align: center;
+	font-size: 40px;
+	color: 6a6a6a;
+	margin-top: 100px;
+	font-weight: 100;
+	color: #ffffff;
+	background-color: #000000;
+	opacity: .5;
+}
+
+.logo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	height: 120px;
+}
 
 .centrado {
 	position: absolute; 
@@ -11,4 +38,10 @@
 
 .redondeado {
 	border-radius: 10px;
+}
+
+.barraHead {
+	background-color: #F8CF14;
+	width: 100%;
+	height: 50px;
 }
