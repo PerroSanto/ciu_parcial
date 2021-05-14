@@ -1,0 +1,14 @@
+.cuerpo {
+	height: 100vh;
+}
+
+
+.centrado {
+	position: absolute; 
+	left: 45%;
+	top: 50%;
+}
+
+.redondeado {
+	border-radius: 10px;
+}
