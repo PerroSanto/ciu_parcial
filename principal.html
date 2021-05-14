@@ -6,10 +6,18 @@
 </head>
 <body>
 
-<button class="boton" id="cerrarSesion">Cerrar sesion</button>
-<p id="campoUsuario">Hola usuario</p>
 
+
+<div class="barraHead">
+	<p id="campoUsuario" class="saludo">Hola usuario</p>
+	<button class="boton" id="cerrarSesion">Cerrar sesion</button>
+</div>
+
+<div>
+<img src="./images/logo.png" class="logo">
 <h1 class="titulo">Descuentos en farmacias asociadas</h1>
+</div>
+
 
 <div class="contenedor">
 	<div class="tarjeta">
@@ -59,7 +67,7 @@
 
 	var res = usuario.split("=");
 
-	 campoUsuario.innerHTML = '<p>Hola '+res[1]+'</P>'
+	 campoUsuario.innerHTML = '<p id="campoUsuario" class="saludo">Hola '+res[1]+'</P>'
 
 cerrarSesion.addEventListener("click", function() {
 		window.location.href='./index.html'
